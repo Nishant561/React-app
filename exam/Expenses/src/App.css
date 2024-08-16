@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+.main-container{
+  overflow-x: hidden;
+  width: 100%;
+  padding: 30px;
+  color: white;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+.medium-container{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 30%; 
+   background-color: rgb(101, 114, 114);
+   padding: 10px;
+}
+
+.balance{
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 33px;
+}
+
+.Income{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  margin-top: 22px;
+  padding: 17px 11px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.income-container,
+.expenses-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.income-container p,
+.expenses-container p{
+  font-size: 20px;
+}
+
+
+.income-container h5,
+.expenses-container h5{
+  font-size: 21px;
+}
+
+.income-container
+ {
+  color: rgba(60, 220, 103, 0.8);
+}
+
+.expenses-container{
+  color: rgba(239, 48, 48, 0.8) ;
+}
+
+
+.line{
+  width: 1px;
+  height: 48px;
+  background-color: black;
+}
+
+.history{
+  display: inline-block;
+  width: 100%;
+  margin-top: 22px;
+}
+
+.history p{
+  margin-bottom: 7px;
+}
+
+
+.history-list{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.list{
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+  margin-top: 10px;
+  
+  border-right: 5px solid rgba(60, 220, 103, 0.8);
+}
+
+.amount{
+  float: right;
+}
+
+.cross-align{
+  display: flex;
+  align-items: center;
+  
+}
+
+.close{
+  width: 21px;
+  color: red;
+  visibility: hidden;
+  transition: ease-in-out .3s;
+}
+
+.cross-align:hover .close{
+  visibility: visible;
+}
+
+
+.transaction-form{
+  margin-top: 22px;
+  display: inline-block;
+  width: 100%;
+}
+
+.transaction-form p{
+ margin-bottom: 7px;
+}
+
+.form{
+  margin-top: 10px;
+}
+
+
+.input-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form input{
+  width: 60%;
+  padding: 5px;
+  border-radius: 3px;
+  border:1px solid rgb(63, 62, 62);
+  margin-bottom: 6px;
+
+}
+
+.input-form label{
+  margin-bottom: 6px;
+}
+
+.button{
+  margin-top: 16px;
+  font-size: 18px;
+  width: 60%;
+  padding: 6px;
+  color: white;
+  background-color: rgb(179, 65, 246);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

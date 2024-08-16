@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    overflow: hidden;
+    /* background: red; */
+    
+}
+
+.container h1{
+    display: inline-block;
+    font-size: 8rem;
+}
+
+
